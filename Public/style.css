@@ -1,0 +1,64 @@
+body{
+    width: max-content;
+    height: max-content;
+    background-color: snow ;
+    background-image: url("sando.jpg");
+    background-size: cover;
+}
+.button{
+    height: 105px !important;
+    width: 100px !important;
+    border: 1px solid #2a0b46;
+    box-shadow: 1px 1px 1px 1px #555454;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tr{
+    height: 100%;
+    width: 90%;
+}
+#start{
+    width: 100% !important;
+    height: 50px !important ;
+    background: transparent;
+    box-shadow: 0 0.5px 0.6px 0.5px #fff;
+}
+#start:hover{
+    background-color: #fff;
+    color: rgb(78, 6, 160) !important;
+}
+#pause:hover{
+    background-color: #fff;
+    color: rgb(78, 6, 160) !important;
+}
+
+#pause{
+    width: 100% !important;
+    height: 50px !important ;
+    background: transparent;
+    box-shadow: 0 0.5px 0.6px 0.5px #fff;
+    
+}
+.table-fluid{
+    margin-bottom: 0px;
+}
+header{
+    background-color: rgb(78, 6, 160);
+    touch-action:pan-x;
+    color: whitesmoke;
+
+}
+.rom{
+    margin-top: 70px !important;
+    box-shadow: 1px 2px 1px #555454;
+}
+.moi{
+    background-color: rgb(78, 6, 160);
+    color: white;
+}
+.hon{
+    color: rgb(118, 6, 255);
+}
